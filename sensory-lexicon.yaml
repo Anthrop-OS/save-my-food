@@ -15,154 +15,158 @@ sensory_lexicon:
   # ===============================================================
   mouthfeel_lexicon:
     - category_id: mouthfeel_hardness
-      category_name: 硬度与紧实度 (Hardness & Firmness)
+      category_name: 硬度与紧实度
+      category_name_en: Hardness & Firmness
       description: "描述咀嚼时需要的力度和食材的物理状态。"
       tags:
         - tag_id: mouthfeel_hardness_01
           name: 流质
           name_en: Liquid/Flowing
           description: "完全是液体，无需咀嚼。"
-          examples: [水, 肉汤, 清汤]
+          examples: [ 水, 肉汤, 清汤 ]
         - tag_id: mouthfeel_hardness_02
           name: 糊状/膏状
           name_en: Mushy/Pasty
           description: "非常柔软的半固体，几乎不需要咀嚼，舌头可以压扁。"
-          examples: [土豆泥, 牛油果酱, 鹰嘴豆泥]
+          examples: [ 土豆泥, 牛油果酱, 鹰嘴豆泥 ]
         - tag_id: mouthfeel_hardness_03
           name: 柔软
           name_en: Soft
           description: "按压时容易变形，但仍保持其形态，不需要太多力气咀嚼。"
-          examples: [炒鸡蛋, 嫩豆腐, 熟透的香蕉]
+          examples: [ 炒鸡蛋, 嫩豆腐, 熟透的香蕉 ]
         - tag_id: mouthfeel_hardness_04
           name: 细嫩
           name_en: Tender
           description: "特指肉类或蔬菜，组织纤维很短，用牙齿可以轻松切断。"
-          examples: [低温慢煮鸡胸肉, 蒸鱼, 煮熟的芦笋尖]
+          examples: [ 低温慢煮鸡胸肉, 蒸鱼, 煮熟的芦笋尖 ]
         - tag_id: mouthfeel_hardness_05
           name: 紧实
           name_en: Firm
           description: "有一定形状和抵抗力，但咀嚼起来不费力。"
-          examples: [煮熟的鸡胸肉, 中等硬度的豆腐, 苹果]
+          examples: [ 煮熟的鸡胸肉, 中等硬度的豆腐, 苹果 ]
         - tag_id: mouthfeel_hardness_06
           name: Q弹/弹牙
           name_en: Springy/Bouncy/Al Dente
           description: "咀嚼时有明显的回弹感，不会轻易断裂或变糊。"
-          examples: [鱼丸, 魔芋, 高品质意大利面]
+          examples: [ 鱼丸, 魔芋, 高品质意大利面 ]
         - tag_id: mouthfeel_hardness_07
           name: 有嚼劲/耐嚼
           name_en: Chewy
           description: "需要持续咀嚼一段时间才能分解，有韧性。"
-          examples: [牛排的筋, 鱿鱼干, 法棍面包皮]
+          examples: [ 牛排的筋, 鱿鱼干, 法棍面包皮 ]
         - tag_id: mouthfeel_hardness_08
           name: 酥脆
           name_en: Crisp
           description: "通常指含水量高的食物，咬下时发出清脆、高频的声音，质地轻。"
-          examples: [新鲜生菜, 黄瓜, 薯片]
+          examples: [ 新鲜生菜, 黄瓜, 薯片 ]
         - tag_id: mouthfeel_hardness_09
           name: 香脆
           name_en: Crunchy
           description: "质地更坚固、更密集，咬下时发出更响亮、更低沉的声音。"
-          examples: [坚果, 炸鸡脆皮, 生胡萝卜]
+          examples: [ 坚果, 炸鸡脆皮, 生胡萝卜 ]
         - tag_id: mouthfeel_hardness_10
           name: 坚硬
           name_en: Hard
           description: "需要用很大的力气才能咬开。"
-          examples: [硬糖, 坚果壳]
+          examples: [ 硬糖, 坚果壳 ]
 
     - category_id: mouthfeel_smoothness
-      category_name: 顺滑度与颗粒感 (Smoothness & Particle Geometry)
+      category_name: 顺滑度与颗粒感
+      category_name_en: Smoothness & Particle Geometry
       description: "描述食材在舌头上的表面感觉。"
       tags:
         - tag_id: mouthfeel_smoothness_01
           name: 丝滑
           name_en: Silky/Velvety
           description: "极其顺滑，没有任何颗粒感，像液体丝绸。"
-          examples: [蒸蛋羹, 日式丝豆腐, 高品质巧克力酱]
+          examples: [ 蒸蛋羹, 日式丝豆腐, 高品质巧克力酱 ]
         - tag_id: mouthfeel_smoothness_02
           name: 顺滑
           name_en: Smooth
           description: "表面平滑，没有明显的凹凸或颗粒。"
-          examples: [酸奶, 浓汤, 布丁]
+          examples: [ 酸奶, 浓汤, 布丁 ]
         - tag_id: mouthfeel_smoothness_03
           name: 奶油状
           name_en: Creamy
           description: "顺滑且浓郁，通常含有脂肪，能在口中均匀铺开。"
-          examples: [牛油果, 蛋黄酱, 冰淇淋]
+          examples: [ 牛油果, 蛋黄酱, 冰淇淋 ]
         - tag_id: mouthfeel_smoothness_04
           name: 有颗粒感
           name_en: Grainy
           description: "能感觉到细小的、独立的颗粒。"
-          examples: [全麦面包, 梨]
+          examples: [ 全麦面包, 梨 ]
         - tag_id: mouthfeel_smoothness_05
           name: 有纤维感
           name_en: Fibrous
           description: "能明显感觉到食物的植物纤维，咀嚼时有丝状物。"
-          examples: [芹菜, 菠萝, 老的芦笋]
+          examples: [ 芹菜, 菠萝, 老的芦笋 ]
         - tag_id: mouthfeel_smoothness_06
           name: 块状
           name_en: Lumpy/Chunky
           description: "液体或糊状物中含有大小不一的固体块。"
-          examples: [带果肉的酸奶, 意面酱]
+          examples: [ 带果肉的酸奶, 意面酱 ]
 
     - category_id: mouthfeel_moisture
-      category_name: 湿润度与粘合度 (Moisture & Cohesiveness)
+      category_name: 湿润度与粘合度
+      category_name_en: Moisture & Cohesiveness
       description: "描述食材的水分含量以及它如何保持其形态。"
       tags:
         - tag_id: mouthfeel_moisture_01
           name: 多汁
           name_en: Juicy
           description: "咬下时会释放出大量液体。"
-          examples: [西瓜, 熟度刚好的牛排, 小番茄]
+          examples: [ 西瓜, 熟度刚好的牛排, 小番茄 ]
         - tag_id: mouthfeel_moisture_02
           name: 湿润
           name_en: Moist
           description: "含有足够的水分，不感觉干燥。"
-          examples: [湿润的蛋糕, 酱汁里的肉]
+          examples: [ 湿润的蛋糕, 酱汁里的肉 ]
         - tag_id: mouthfeel_moisture_03
           name: 干燥
           name_en: Dry
           description: "缺乏水分，可能会吸收口中的唾液。"
-          examples: [饼干, 烤过头的鸡胸肉]
+          examples: [ 饼干, 烤过头的鸡胸肉 ]
         - tag_id: mouthfeel_moisture_04
           name: 松散/易碎
           name_en: Crumbly/Loose
           description: "组织结构不紧密，容易散成小块或碎屑。"
-          examples: [菲达奶酪, 炒牛肉末]
+          examples: [ 菲达奶酪, 炒牛肉末 ]
         - tag_id: mouthfeel_moisture_05
           name: 粘的
           name_en: Sticky
           description: "会粘在牙齿、上颚或嘴唇上。"
-          examples: [年糕, 焦糖]
+          examples: [ 年糕, 焦糖 ]
         - tag_id: mouthfeel_moisture_06
           name: 胶状的
           name_en: Gummy/Gelatinous
           description: "半透明，质地像果冻或凝胶。"
-          examples: [果冻, 皮冻]
+          examples: [ 果冻, 皮冻 ]
 
     - category_id: mouthfeel_dynamic
-      category_name: 口腔动态感受 (Dynamic Sensation)
+      category_name: 口腔动态感受
+      category_name_en: Dynamic Sensation
       description: "描述食物在口中随时间、温度等发生的变化。"
       tags:
         - tag_id: mouthfeel_dynamic_01
           name: 油腻的
           name_en: Oily/Greasy
           description: "能感觉到一层脂肪包裹在舌头或口腔中。"
-          examples: [炸薯条, 肥肉]
+          examples: [ 炸薯条, 肥肉 ]
         - tag_id: mouthfeel_dynamic_02
           name: 醇厚的
           name_en: Rich
           description: "通常指脂肪和风味都很饱满，带来满足但沉重的感觉。"
-          examples: [蛋黄, 黑巧克力, 奶油酱]
+          examples: [ 蛋黄, 黑巧克力, 奶油酱 ]
         - tag_id: mouthfeel_dynamic_03
           name: 入口即化
           name_en: Melty
           description: "固体在口腔的温度下迅速融化成液体。"
-          examples: [巧克力, 黄油, 冰淇淋]
+          examples: [ 巧克力, 黄油, 冰淇淋 ]
         - tag_id: mouthfeel_dynamic_04
           name: 爆裂的
           name_en: Popping
           description: "外皮破裂时，内部的液体或酱汁会“爆”开。"
-          examples: [鱼籽, 爆珠]
+          examples: [ 鱼籽, 爆珠 ]
 
 
   # ===============================================================
@@ -171,59 +175,61 @@ sensory_lexicon:
   # ===============================================================
   taste_chemesthesis_lexicon:
     - category_id: taste_basic
-      category_name: 基本味觉 (Basic Tastes)
+      category_name: 基本味觉
+      category_name_en: Basic Tastes
       description: "由舌头上的味蕾直接识别，传递关于食物成分的生存信号。"
       tags:
         - tag_id: taste_basic_01
           name: 甜
           name_en: Sweet
           description: "能量来源的信号，通常是糖类。"
-          examples: [水果, 蜂蜜, 糖]
+          examples: [ 水果, 蜂蜜, 糖 ]
         - tag_id: taste_basic_02
           name: 酸
           name_en: Sour
           description: "酸性物质的信号，可能与未成熟或发酵有关。"
-          examples: [柠檬, 醋, 酸奶]
+          examples: [ 柠檬, 醋, 酸奶 ]
         - tag_id: taste_basic_03
           name: 咸
           name_en: Salty
           description: "矿物质（主要是盐）的信号，身体必需的电解质。"
-          examples: [盐, 酱油, 海带]
+          examples: [ 盐, 酱油, 海带 ]
         - tag_id: taste_basic_04
           name: 苦
           name_en: Bitter
           description: "潜在毒素的信号，人类对此非常敏感。"
-          examples: [咖啡, 苦瓜, 啤酒花]
+          examples: [ 咖啡, 苦瓜, 啤酒花 ]
         - tag_g_id: taste_basic_05
           name: 鲜
           name_en: Umami
           description: "蛋白质（谷氨酸盐）存在的信号，带来满足感。"
-          examples: [肉汤, 蘑菇, 西红柿, 味增]
+          examples: [ 肉汤, 蘑菇, 西红柿, 味增 ]
 
     - category_id: taste_chemesthesis
-      category_name: 化学口面感觉 (Chemesthesis)
+      category_name: 化学口面感觉
+      category_name_en: Chemesthesis
       description: "由痛觉、温度、触觉神经感知，而非味蕾。"
       tags:
         - tag_id: taste_chem_01
           name: 辣
           name_en: Spicy/Hot
           description: "激活“高温灼烧”的痛觉神经。"
-          examples: [辣椒, 芥末]
+          examples: [ 辣椒, 芥末 ]
         - tag_id: taste_chem_02
           name: 麻
           name_en: Numbing
           description: "激活“振动”的触觉神经。"
-          examples: [花椒]
+          examples: [ 花椒 ]
         - tag_id: taste_chem_03
           name: 凉
           name_en: Cooling
           description: "激活“低温”的温度神经。"
-          examples: [薄荷]
+          examples: [ 薄荷 ]
         - tag_id: taste_chem_04
           name: 涩
           name_en: Astringent
           description: "唾液蛋白与单宁结合，产生物理上的干燥、收敛感。"
-          examples: [浓茶, 未熟的柿子, 红酒]
+          examples: [ 浓茶, 未熟的柿子, 红酒 ]
 
 
   # ===============================================================
@@ -232,118 +238,126 @@ sensory_lexicon:
   # ===============================================================
   aroma_lexicon:
     - category_id: aroma_fruity
-      category_name: 果香 (Fruity)
+      category_name: 果香
+      category_name_en: Fruity
       tags:
         - tag_id: aroma_fruity_01
           name: 柑橘类
           name_en: Citrus
           description: "清新、提神的酸性水果香气。"
-          examples: [柠檬, 橙子, 青柠]
+          examples: [ 柠檬, 橙子, 青柠 ]
         - tag_id: aroma_fruity_02
           name: 莓果类
           name_en: Berry
           description: "甜美、略带酸味的红色或黑色浆果香气。"
-          examples: [草莓, 蓝莓, 覆盆子]
+          examples: [ 草莓, 蓝莓, 覆盆子 ]
         - tag_id: aroma_fruity_03
           name: 热带水果
           name_en: Tropical Fruit
           description: "浓郁、甜美的热带水果香气。"
-          examples: [芒果, 菠萝, 香蕉]
+          examples: [ 芒果, 菠萝, 香蕉 ]
 
     - category_id: aroma_herbal
-      category_name: 草本/植物 (Herbal/Green)
+      category_name: 草本/植物
+      category_name_en: Herbal/Green
       tags:
         - tag_id: aroma_herbal_01
           name: 清新
           name_en: Fresh/Green
           description: "类似新鲜切割的草或蔬菜的清爽香气。"
-          examples: [黄瓜, 薄荷, 青椒]
+          examples: [ 黄瓜, 薄荷, 青椒 ]
         - tag_g_id: aroma_herbal_02
           name: 药草
           name_en: Herbal
           description: "芳香植物的独特香气。"
-          examples: [罗勒, 迷迭香, 香菜]
+          examples: [ 罗勒, 迷迭香, 香菜 ]
 
     - category_id: aroma_earthy
-      category_name: 泥土/大地 (Earthy)
+      category_name: 泥土/大地
+      category_name_en: Earthy
       tags:
         - tag_id: aroma_earthy_01
           name: 菌菇
           name_en: Fungi
           description: "类似潮湿森林地表或蘑菇的深沉香气。"
-          examples: [蘑菇, 松露]
+          examples: [ 蘑菇, 松露 ]
         - tag_id: aroma_earthy_02
           name: 根茎
           name_en: Root
           description: "来自地下生长的蔬菜的朴实香气。"
-          examples: [胡萝卜, 甜菜, 土豆]
+          examples: [ 胡萝卜, 甜菜, 土豆 ]
 
     - category_id: aroma_roasted
-      category_name: 坚果/烘烤 (Nutty/Roasted)
+      category_name: 坚果/烘烤
+      category_name_en: Nutty/Roasted
       tags:
         - tag_id: aroma_roasted_01
           name: 坚果
           name_en: Nutty
           description: "烘烤过的坚果或种子的香气。"
-          examples: [杏仁, 芝麻, 核桃]
+          examples: [ 杏仁, 芝麻, 核桃 ]
         - tag_id: aroma_roasted_02
           name: 焦香
           name_en: Toasted/Caramelized
           description: "由美拉德反应或焦糖化产生的香气。"
-          examples: [烤面包, 咖啡豆, 焦糖]
+          examples: [ 烤面包, 咖啡豆, 焦糖 ]
 
     - category_id: aroma_savory
-      category_name: 肉香/咸香 (Savory/Meaty)
+      category_name: 肉香/咸香
+      category_name_en: Savory/Meaty
       tags:
         - tag_id: aroma_savory_01
           name: 烤肉
           name_en: Roasted Meat
           description: "烘烤或炙烤肉类产生的浓郁香气。"
-          examples: [烤鸡, 煎牛排]
+          examples: [ 烤鸡, 煎牛排 ]
         - tag_id: aroma_savory_02
           name: 肉汤
           name_en: Brothy
           description: "长时间炖煮肉类或骨头产生的温暖、醇厚香气。"
-          examples: [鸡汤, 牛肉汤]
+          examples: [ 鸡汤, 牛肉汤 ]
 
     - category_g_id: aroma_smoky
-      category_name: 烟熏 (Smoky)
+      category_name: 烟熏
+      category_name_en: Smoky
       tags:
         - tag_id: aroma_smoky_01
           name: 炙烤
           name_en: Charred/Grilled
           description: "由明火或高温炙烤食物表面产生的香气。"
-          examples: [烧烤, 喷枪处理过的食物]
+          examples: [ 烧烤, 喷枪处理过的食物 ]
         - tag_id: aroma_smoky_02
           name: 木质烟熏
           name_en: Wood-Smoked
           description: "由燃烧木材熏制食物产生的独特香气。"
-          examples: [烟熏三文鱼, 培根]
+          examples: [ 烟熏三文鱼, 培根 ]
 
     - category_id: aroma_fermented
-      category_name: 发酵/复合 (Fermented/Funky)
+      category_name: 发酵/复合
+      category_name_en: Fermented/Funky
       tags:
         - tag_id: aroma_fermented_01
           name: 豆豉/酱香
           name_en: Soy-fermented
           description: "由大豆发酵产生的独特、复杂的咸鲜香气。"
-          examples: [酱油, 味增, 豆豉]
+          examples: [ 酱油, 味增, 豆豉 ]
         - tag_id: aroma_fermented_02
           name: 酸香
           name_en: Lactic/Pickled
           description: "由乳酸发酵产生的开胃酸味香气。"
-          examples: [酸菜, 韩式泡菜, 酸奶]
+          examples: [ 酸菜, 韩式泡菜, 酸奶 ]
 
     - category_id: aroma_marine
-      category_name: 海洋 (Marine)
+      category_name: 海洋
+      category_name_en: Marine
       tags:
         - tag_id: aroma_marine_01
           name: 海藻
           name_en: Seaweed
           description: "类似大海或海藻的清新、略带咸味的香气。"
-          examples: [海苔, 昆布, 裙带菜]
+          examples: [ 海苔, 昆布, 裙带菜 ]
         - tag_id: aroma_marine_02
           name: 鱼鲜
           name_en: Fishy
           description: "新鲜海鱼的独特香气。"
-          examples: [三文鱼, 金枪鱼]
+          examples: [ 三文鱼, 金枪鱼 ]
