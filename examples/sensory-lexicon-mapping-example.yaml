@@ -1,0 +1,180 @@
+# -----------------------------------------------------------------
+# Component Sensory Mapping v1.0
+# Description: Maps specific food components to their sensory tags
+#              from the Sensory Lexicon. This file provides the
+#              core data for sensory prediction and user guidance.
+# -----------------------------------------------------------------
+
+component_sensory_mapping:
+
+  - component_id: prot_001
+    component_name: 超市烤鸡 (Supermarket Rotisserie Chicken)
+    notes: "这是一个典型的‘第三层：外部组件’。其核心优势是便利，但感官一致性是其最大风险。肉的湿润度和皮的口感每天都可能不同。"
+    mouthfeel_tags:
+      - mouthfeel_hardness_04   # 细嫩 (Tender) - 指肉质
+      - mouthfeel_hardness_03   # 柔软 (Soft) - 指肉质和皮
+      - mouthfeel_hardness_07   # 有嚼劲 (Chewy) - 特指可能存在的韧皮
+      - mouthfeel_moisture_02   # 湿润 (Moist) - 理想状态下
+      - mouthfeel_moisture_03   # 干燥 (Dry) - 常见风险，尤其是鸡胸肉
+      - mouthfeel_smoothness_05 # 有纤维感 (Fibrous) - 鸡肉的天然纹理
+    taste_chem_tags:
+      - taste_basic_03          # 咸 (Salty) - 通常是主导味道
+      - taste_basic_05          # 鲜 (Umami) - 来自鸡肉本身
+    aroma_tags:
+      - aroma_savory_01         # 烤肉 (Roasted Meat) - 核心香气
+      - aroma_savory_02         # 肉汤 (Brothy)
+
+  - component_id: prot_002
+    component_name: 嫩豆腐 (Soft/Silken Tofu)
+    notes: "这是一个完美的‘第一层：基础元素’，也是经典的‘安全食物’。其感官特征极其稳定和中性，是承载其他风味的绝佳基底。"
+    mouthfeel_tags:
+      - mouthfeel_hardness_03   # 柔软 (Soft)
+      - mouthfeel_smoothness_01 # 丝滑 (Silky)
+      - mouthfeel_moisture_02   # 湿润 (Moist)
+      - mouthfeel_dynamic_03    # 入口即化 (Melty) - 质感上
+    taste_chem_tags:
+      - taste_basic_01          # 甜 (Sweet) - 仅有非常微弱的豆香甜味
+    aroma_tags: [] # 香气极其微弱，可视为中性
+
+  - component_id: veg_001
+    component_name: 长叶生菜 (Romaine Lettuce)
+    notes: "核心感官价值在于‘酥脆’。一旦失去这个特征（蔫了），就会变成负面的感官体验。新鲜度是关键。"
+    mouthfeel_tags:
+      - mouthfeel_hardness_08   # 酥脆 (Crisp) - 尤其是菜梗
+      - mouthfeel_hardness_04   # 细嫩 (Tender) - 指菜叶
+      - mouthfeel_moisture_01   # 多汁 (Juicy)
+    taste_chem_tags:
+      - taste_basic_04          # 苦 (Bitter) - 带有非常微弱、清新的苦味基调
+    aroma_tags:
+      - aroma_herbal_01         # 清新 (Fresh/Green)
+
+  - component_id: veg_002
+    component_name: 番茄 (Tomato)
+    notes: "感官复杂度很高的组件。内部（糊状、多汁）和外部（皮，有嚼劲）的口感差异巨大，是常见的感官风险点。"
+    mouthfeel_tags:
+      - mouthfeel_hardness_03   # 柔软 (Soft) - 指果肉
+      - mouthfeel_hardness_02   # 糊状/膏状 (Mushy/Pasty) - 指内部的籽和浆
+      - mouthfeel_hardness_07   # 有嚼劲 (Chewy) - 指番茄皮
+      - mouthfeel_moisture_01   # 多汁 (Juicy)
+    taste_chem_tags:
+      - taste_basic_01          # 甜 (Sweet)
+      - taste_basic_02          # 酸 (Sour)
+      - taste_basic_05          # 鲜 (Umami) - 核心特征，谷氨酸含量高
+    aroma_tags:
+      - aroma_herbal_01         # 清新 (Fresh/Green)
+      - aroma_fruity_02         # 莓果类 (Berry) - 成熟番茄的香气特征
+
+  - component_id: veg_003
+    component_name: 黄瓜 (Cucumber)
+    notes: "和生菜类似，是感官上非常‘安全’、可预测的组件。以清新的香气和酥脆的口感为核心。"
+    mouthfeel_tags:
+      - mouthfeel_hardness_08   # 酥脆 (Crisp)
+      - mouthfeel_hardness_05   # 紧实 (Firm)
+      - mouthfeel_moisture_01   # 多汁 (Juicy)
+    taste_chem_tags: [] # 味道极其清淡
+    aroma_tags:
+      - aroma_herbal_01         # 清新 (Fresh/Green)
+
+  - component_id: veg_004
+    component_name: 红椒 (Red Bell Pepper)
+    notes: "与黄绿椒相比，其核心感官特征是‘甜’味更突出，‘苦’味几乎没有。"
+    mouthfeel_tags:
+      - mouthfeel_hardness_08   # 酥脆 (Crisp)
+      - mouthfeel_hardness_05   # 紧实 (Firm)
+      - mouthfeel_moisture_01   # 多汁 (Juicy)
+    taste_chem_tags:
+      - taste_basic_01          # 甜 (Sweet)
+    aroma_tags:
+      - aroma_herbal_01         # 清新 (Fresh/Green)
+      - aroma_fruity_01         # 柑橘类 (Citrus) - 带有类似水果的香气
+
+  - component_id: fat_001
+    component_name: 黑芝麻 (Black Sesame Seed)
+    notes: "与白芝麻相比，香气更浓郁、深沉，略带一丝苦味，风味层次更丰富。"
+    mouthfeel_tags:
+      - mouthfeel_hardness_09   # 香脆 (Crunchy)
+      - mouthfeel_moisture_03   # 干燥 (Dry)
+    taste_chem_tags:
+      - taste_basic_04          # 苦 (Bitter) - 带有非常微弱的苦味基调
+    aroma_tags:
+      - aroma_roasted_01        # 坚果 (Nutty)
+      - aroma_roasted_02        # 焦香 (Toasted/Caramelized)
+      - aroma_earthy_01         # 菌菇 (Fungi) - 带有更深沉的泥土气息
+
+  - component_id: fat_002
+    component_name: 白芝麻 (White Sesame Seed)
+    notes: "香气更纯粹、更直接的‘坚果’和‘烘烤’味。"
+    mouthfeel_tags:
+      - mouthfeel_hardness_09   # 香脆 (Crunchy)
+      - mouthfeel_moisture_03   # 干燥 (Dry)
+    taste_chem_tags: []
+    aroma_tags:
+      - aroma_roasted_01        # 坚果 (Nutty)
+      - aroma_roasted_02        # 焦香 (Toasted/Caramelized)
+
+  - component_id: seas_001
+    component_name: 盐 (Salt)
+    notes: "最纯粹的‘第一层：基础元素’。功能是提供‘咸’味并放大其他风味。"
+    mouthfeel_tags: []
+    taste_chem_tags:
+      - taste_basic_03          # 咸 (Salty)
+    aroma_tags: []
+
+  - component_id: seas_002
+    component_name: 黑胡椒 (Black Pepper)
+    notes: "感官功能是双重的：提供‘辣’的化学感觉和独特的‘辛香’气味。"
+    mouthfeel_tags: []
+    taste_chem_tags:
+      - taste_chem_01           # 辣 (Spicy/Hot)
+    aroma_tags:
+      - aroma_herbal_02         # 药草 (Herbal)
+      - aroma_smoky_01          # 炙烤 (Charred/Grilled) - 带有烟熏和木质感
+
+  - component_id: seas_003
+    component_name: 意式香醋 (Balsamic Vinegar)
+    notes: "‘酸’和‘甜’的复杂平衡体。品质差异巨大，廉价品可能只有刺鼻的酸味。"
+    mouthfeel_tags:
+      - mouthfeel_hardness_01   # 流质 (Liquid/Flowing)
+    taste_chem_tags:
+      - taste_basic_02          # 酸 (Sour)
+      - taste_basic_01          # 甜 (Sweet)
+      - taste_chem_04           # 涩 (Astringent) - 可能存在
+    aroma_tags:
+      - aroma_fruity_02         # 莓果类 (Berry) - 来自葡萄
+      - aroma_fermented_02      # 酸香 (Lactic/Pickled)
+
+  - component_id: fat_003
+    component_name: 胡麻油/芝麻油 (Sesame Oil)
+    notes: "其感官贡献几乎100%来自于香气，而非味道。是典型的‘香气组件’。"
+    mouthfeel_tags:
+      - mouthfeel_hardness_01   # 流质 (Liquid/Flowing)
+      - mouthfeel_dynamic_01    # 油腻的 (Oily/Greasy)
+    taste_chem_tags: []
+    aroma_tags:
+      - aroma_roasted_01        # 坚果 (Nutty) - 极其强烈
+      - aroma_roasted_02        # 焦香 (Toasted/Caramelized)
+
+  - component_id: seas_004
+    component_name: 菌菇调味料 (Mushroom Seasoning)
+    notes: "‘鲜味炸弹’。是盐和味精的天然替代品，用于快速提升食物的醇厚感。"
+    mouthfeel_tags: []
+    taste_chem_tags:
+      - taste_basic_05          # 鲜 (Umami) - 核心功能
+      - taste_basic_03          # 咸 (Salty)
+    aroma_tags:
+      - aroma_earthy_01         # 菌菇 (Fungi)
+
+  - component_id: seas_005
+    component_name: 混合芝麻调味料 (Sesame Seasoning Blend)
+    notes: "一个典型的‘第二层：复合组件’。它是一个快捷方式，同时提供了多种口感、味道和香气。"
+    mouthfeel_tags:
+      - mouthfeel_hardness_09   # 香脆 (Crunchy) - 来自芝麻
+      - mouthfeel_moisture_03   # 干燥 (Dry)
+      - mouthfeel_hardness_08   # 酥脆 (Crisp) - 可能来自其中的干海苔
+    taste_chem_tags:
+      - taste_basic_03          # 咸 (Salty)
+      - taste_basic_05          # 鲜 (Umami) - 来自海苔
+      - taste_basic_01          # 甜 (Sweet) - 许多混合调味料会加糖
+    aroma_tags:
+      - aroma_roasted_01        # 坚果 (Nutty)
+      - aroma_marine_01         # 海藻 (Seaweed)
